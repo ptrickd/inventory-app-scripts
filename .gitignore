@@ -34,4 +34,5 @@ yarn-error.log*
 #vscode 
 inventory-app.code-workspace
 
+##Data
 db.json
