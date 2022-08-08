@@ -1,0 +1,23 @@
+{
+  "name": "inventory-app-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptrickd/inventory-app-scripts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ptrickd/inventory-app-scripts/issues"
+  },
+  "homepage": "https://github.com/ptrickd/inventory-app-scripts#readme",
+  "dependencies": {
+    "mongoose": "^6.5.1"
+  }
+}
