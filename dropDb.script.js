@@ -8,7 +8,7 @@ const Report = require('./models/report.model')
 module.exports = {
     drop: async () => {
         try {
-            var db = await mongoose.connect('mongodb://localhost:27017/inventory-app')
+            await mongoose.connect('mongodb://localhost:27017/inventory-app')
             await Category.deleteMany()
             await User.deleteMany()
             await Product.deleteMany()
