@@ -12,6 +12,7 @@ module.exports = {
             await Category.deleteMany()
             await User.deleteMany()
             await Product.deleteMany()
+
             setTimeout(function () {
                 mongoose.disconnect();
             }, 1000);
